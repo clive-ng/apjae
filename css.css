@@ -1,0 +1,421 @@
+body
+{	margin:0px;
+	background-image:  url(images/va_bk02.jpg);
+	background-repeat: repeat-y;
+	color: #366B36;text-decoration:none;
+}
+
+a {	color: #366B36;text-decoration:none;
+}
+a:hover   {
+	color:#366B36;background-color:transparent;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.bullet {text-decoration:none;font-size:9pt;font-family: Arial; line-height: 11px;font-weight: lighter;color: #366B36;}
+}
+.bullet:link    {
+	background-color:transparent;
+	color: #366B36;
+
+}
+.bullet:visited {color:#366B36;background-color:transparent; font-size:9pt}
+.bullet:active  {color:#366B36;background-color:transparent; font-size:9pt}
+.bullet:hover   {
+	color:#366B36;background-color:transparent;
+	text-decoration: underline;
+	color:#366B36;font-size: 9pt;
+	font-weight: normal;
+}
+
+.collapsed { text-decoration:none; font-weight: bold; font-family: Arial; color: #366B36;font-size:9pt}
+.expanded {  text-decoration:none;font-weight: normal; font-family: Arial; font-size: 9pt; color: #366B36;}
+	LI.bullet, LI.expanded { font-weight: bold; list-style-type: circle; margin-left: -20px; font-family: Arial; font-size: 9pt}
+	LI.expanded { list-style-image: url(expanded.gif);; font-size: 9pt}
+	LI.item { list-style-image: url(bullet.gif);; font-size: 9pt}ottom: 0px; margin-left: 15px; margin-top: 0px; }
+
+
+.winet {
+	font-size: 10px;
+    color: #66FFCC;
+	text-decoration: none;
+	font-family: "Verdana", "Arial";
+}
+.winet:link { text-decoration: none; color: #66FFCC; font-size: 10px;}
+.winet:visited { text-decoration: none; color: #66FFCC; font-size: 10px;}
+.winet:active {	text-decoration: none; color: #66FFCC; font-size: 10px;}
+.winet:hover {	text-decoration: none; color: #FFFF99;font-size: 10px;}
+
+.url {
+	font-size: 8pt;
+	color: #000099;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+.url:link { font-size: 8pt; text-decoration: none; color: #000099;}
+.url:visited { font-size: 8pt; text-decoration: none; color: #000099;}
+.url:active { font-size: 8pt; text-decoration: none; color: #000099;}
+.url:hover {
+	font-size: 8pt;
+	text-decoration: underline;
+	color: #000000;
+	font-weight: bold;
+}
+
+.url2 {
+	text-decoration: none;
+	font-weight: normal;
+	color: #366B36;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+
+}
+.url2:link {
+	font-size: 9pt;
+	text-decoration: none;
+	color: #366B36;
+	font-weight: normal;
+
+}
+.url2:visited {
+	font-size: 9pt;
+	text-decoration: none;
+	color: #366B36;
+	font-weight: normal;
+
+}
+.url2:active {
+	font-size: 9pt;
+	text-decoration: none;
+	color: #366B36;
+}
+.url2:hover { font-size: 9pt; text-decoration: underline; color: #000000;}
+
+.head {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #366836;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+.txt:link { text-decoration: none; color: #996600;}
+.txt:visited { text-decoration: none; color: #996600;}
+.txt:active { text-decoration: none; color: #996600;}
+.txt:hover { text-decoration: underline; color: #996600;}
+
+.txt {
+	font-size: 11px;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+
+}
+.txt:link { font-size: 9pt;text-decoration: none;}
+.txt:visited { font-size: 9pt;text-decoration: none;}
+.txt:active { font-size: 9pt;text-decoration: none;}
+.txt:hover { font-size: 9pt;text-decoration: underline;}
+
+.txt2 {
+	font-size: 10pt;
+	text-decoration: none;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #000000;
+	text-align: left;
+	letter-spacing: normal;
+	vertical-align: baseline;
+	word-spacing: normal;
+	list-style-position: outside;
+	list-style-type: decimal;
+
+
+
+}
+.txt2:link { text-decoration: none;}
+.txt2:visited { text-decoration: none;}
+.txt2:active { text-decoration: none;}
+.txt2:hover { text-decoration: underline; color: #FF3366;}
+.whitehead {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #3399FF;
+
+.whitehead:link { text-decoration: none; color: #FF3366;}
+.whitehead:visited { text-decoration: none;}
+.whitehead:active { text-decoration: none;}
+.whitehead:hover { text-decoration: underline; color: #FF3366;}
+
+}
+.greyhead {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	background-color: #FFFFCC;
+}
+.tablegrey {
+
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+.tablegrey :link    {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: bold;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+.tablegrey :visited {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: bold;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablegrey :active  {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: bold;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablegrey :hover   {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: bold;
+ font-size: 12px; text-decoration: underline; color: #000099;
+}
+
+.tablewhite {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 14px;
+	font-weight: normal;
+	color: #366B36;
+	background-color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: outset;
+	border-left-style: none;
+	border-bottom-color: #999999;
+	border-bottom-width: 1px;
+	text-decoration: none;
+}
+
+.tablewhite :link    {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+.tablewhite :visited {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablewhite :active  {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablewhite :hover   {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+
+
+
+}
+.txt2bullet {
+	font-size: 9pt;
+	text-decoration: none;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #FFFFFF;
+	text-align: left;
+	letter-spacing: normal;
+	vertical-align: baseline;
+	word-spacing: normal;
+	list-style-type: disc;
+	list-style-position: outside;
+	line-height: 160%;
+
+
+
+}
+.pebodywhite {
+	font-size: 12px;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #FFFFFF;
+	text-align: left;
+
+
+
+}
+.peheadwhite {
+	font-size: 14px;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #0000CC;
+	font-weight: bolder;
+	text-align: left;
+
+
+
+}
+.pebodyline {
+	font-size: 12px;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #FFFFFF;
+	text-align: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.menulink {
+	font-size: 10pt;
+	text-decoration: none;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #FFFFFF;
+	text-align: left;
+	letter-spacing: normal;
+	vertical-align: baseline;
+	word-spacing: normal;
+	position: relative;
+	height: 27px;
+	width: 509px;
+	font-weight: bold;
+
+}
+
+.menulink :link    {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 10px; text-decoration: none; color: #000000;
+}
+.menulink :visited {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 10px; text-decoration: none; color: #000000;
+}
+
+.menulink :active  {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 10px; text-decoration: none; color: #000000;
+}
+
+.menulink :hover   {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 10px; text-decoration: underline; color: #000000;
+}
+
+.peheadwhiteCopy {
+	font-size: 14px;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-align: left;
+	text-indent: 30px;
+
+
+}
+.tablegreyline {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #EBEBEB;
+	border-bottom-width: 1px;
+	border-bottom-style: outset;
+	border-bottom-color: #000000;
+
+}
+.tablegreyline :link    {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: bold;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+.tablegreyline :visited {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablegreyline :active  {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablegreyline :hover   {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: bold;
+ font-size: 12px; text-decoration: underline; color: #000099;
+}
+
+.tablewhitenoline {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-bottom-color: #999999;
+	border-bottom-width: 1px;
+}
+
+
+.tablewhitenoline :link    {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+.tablewhitenoline :visited {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablewhitenoline :active  {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablewhitenoline :hover   {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: underline; color: #000099;
+}
+.tablesmallgreyline {
+
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #EBEBEB;
+	border-bottom-width: 1px;
+	border-bottom-style: outset;
+	border-bottom-color: #000000;
+}
+.tablesmallgreyline :link    {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+.tablesmallgreyline :visited {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablesmallgreyline :active  {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: normal;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+
+.tablesmallgreyline :hover   {font-family: "Arial", "Helvetica", "sans-serif"; font-weight: bold;
+ font-size: 12px; text-decoration: none; color: #000099;
+}
+.menubk {
+	background-attachment: fixed;
+	background-image: url(images/va_menu1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.txt3 {
+	font-size: 10pt;
+	text-decoration: none;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #000000;
+	text-align: left;
+	letter-spacing: normal;
+	vertical-align: baseline;
+	word-spacing: normal;
+	list-style-position: outside;
+	list-style-type: decimal;
+	line-height: 25px;
+
+}
+.txt4 {
+
+	font-size: 8pt;
+	text-decoration: none;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: #000000;
+	text-align: left;
+	letter-spacing: normal;
+	vertical-align: baseline;
+	word-spacing: normal;
+	list-style-position: outside;
+	list-style-type: decimal;
+}
